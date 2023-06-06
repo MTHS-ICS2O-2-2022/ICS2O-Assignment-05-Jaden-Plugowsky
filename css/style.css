@@ -11,20 +11,14 @@
 }
 
 body {
-  background-color: lightcoral;
-}
-
-a {
-  font-size: 30px;
-  background-color: white;
-  padding-left: 20px;
+  background-color: rgb(230 181 58);
 }
 
 .right-image {
   height: auto;
-  width: 450px;
+  width: auto;
   float: right;
-  margin-right: 150px;
+  margin-right: 20px;
 }
 
 .mdl-content {
@@ -34,7 +28,7 @@ a {
 
 .mdl-layout__content {
   margin-left: 20px;
-  color: white;
+  color: black;
 }
 
 .mdl-layout__header-row {
@@ -42,7 +36,7 @@ a {
 }
 
 .mdl-layout-title {
-  color: white;
+  color: black;
 }
 
 .page-content-answer {

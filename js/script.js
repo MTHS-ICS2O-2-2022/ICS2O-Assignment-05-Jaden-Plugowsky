@@ -6,15 +6,22 @@
 
 "use strict"
 
-function buttonOneClicked() {
-  //This function does XXXX
-  //Input through Textfields
-  const example = parseFloat(document.getElementById("example").value)
+function calculatePressed() {
+  // This function takes a user-given number and calculates the answer based on a pattern
+  // Input through Textfields
+  const layer = parseFloat(document.getElementById("layer").value)
+  let addby = 3
+  let answer = 0
 
-  //Process
-  const answer = example
+  // Process
+  for (let counter = 0; counter < layer; counter++) {
+    answer += addby
+    if (answer >= 6) {
+      addby++
+    }
+  }
 
-  //Output
+  // Output
   document.getElementById("answer").innerHTML =
-    "The answer is: " + answer.toFixed(2)
+    "Layer " + layer + " has " + answer + " dots."
 }
