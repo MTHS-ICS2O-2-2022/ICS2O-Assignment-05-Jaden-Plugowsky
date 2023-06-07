@@ -21,6 +21,14 @@ body {
   margin-right: 20px;
 }
 
+.right-image-lower {
+  height: auto;
+  width: auto;
+  float: right;
+  margin-right: -351px;
+  margin-top: 80px;
+}
+
 .mdl-content {
   font-size: 30px;
   line-height: 30px;
