@@ -8,9 +8,9 @@ package main
 import "fmt"
 
 var layer int
-var addby int = 3
-var answer int = 0
-var counter int = 0
+var addby = 3
+var answer int // starts at 0
+var counter int
 
 func main() {
 	// This function takes a user-given number and calculates the answer based on a pattern
